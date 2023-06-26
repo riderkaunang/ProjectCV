@@ -1,14 +1,18 @@
-import "./assets/css/bootstrap.min.css"
-import "./assets/fonts/font-awesome.min.css"
-import "./assets/fonts/simple-line-icons.css"
-import "./assets/css/slicknav.css"
-import "./assets/css/nivo-lightbox.css"
-import "./assets/css/animate.css"
-import "./assets/css/main.css"
-import "./assets/css/responsive.css"
+import "./component/css/bootstrap.min.css"
+import "./component/fonts/font-awesome.min.css"
+import "./component/fonts/simple-line-icons.css"
+import "./component/css/slicknav.css"
+import "./component/css/nivo-lightbox.css"
+import "./component/css/animate.css"
+import "./component/css/main.css"
+import "./component/css/responsive.css"
+import "./component/img/about/as.jpg"
+import "./component/img/logo.png"
+
+
 import React from 'react';
 
-const FinalProject = () =>{
+const projectIndividu = () =>{
     return (
         <body>
 
@@ -26,7 +30,7 @@ const FinalProject = () =>{
             <span className="icon-menu" />
             <span className="icon-menu" />
           </button>
-          <a href="index.html" classname="navbar-brand"><img src="img/logo.png" alt /></a>
+          <a href="index.html" classname="navbar-brand"><img src="./component/img/logo.png" alt="logo"/></a>
         </div>
         <div className="collapse navbar-collapse" id="main-navbar">
           <ul className="onepage-nev navbar-nav mr-auto w-100 justify-content-end clearfix">
@@ -124,19 +128,18 @@ const FinalProject = () =>{
       <div className="row">
         <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <div className="img-thumb wow fadeInLeft" data-wow-delay="0.3s">
-        <img className="img-fluid" src="img/about/rk.jpg" alt />
-
+        <img className="img-fluid" img src="./component/img/about/as.jpg" alt />
           </div>
         </div> 
         <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <div className="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
-            <h3>Hi Guys!</h3>
-            <p>ini Final Project Individu </p>
+            <h3>Hello</h3>
+            <p>Project Individu </p>
             <div className="about-profile">
               <ul className="admin-profile">
                 <li><span className="pro-title"> Name </span> <span className="pro-detail"> Kaunang Yosafat Yulius Riders</span></li>
                 <li><span className="pro-title"> Age </span> <span className="pro-detail">21 Years</span></li>
-                <li><span className="pro-title"> Experience </span> <span className="pro-detail">1 Years</span></li>
+                <li><span className="pro-title"> Sertifikasi </span> <span className="pro-detail"> 2 Sertifikasi</span></li>
                 <li><span className="pro-title"> Country </span> <span className="pro-detail">Indonesia</span></li>
                 <li><span className="pro-title"> Location </span> <span className="pro-detail">Sulawesi Utara, Bitung, Aertembanga</span></li>
                 <li><span className="pro-title"> e-mail </span> <span className="pro-detail">S21910579@student.unklab.ac.id</span></li>
@@ -236,7 +239,7 @@ const FinalProject = () =>{
               </li>
               <li>
                 <div className="content-text">
-                  <h3 className="line-title">SMK N 2 BITUNG</h3>
+                  <h3 className="line-title">SMA N 2 BITUNG</h3>
                   <span>2016 - 2018</span>
                   <p className="line-text">Tamat.</p>
                 </div>
@@ -252,24 +255,24 @@ const FinalProject = () =>{
           </div>
         </div>
         <div className="col-lg-6 col-md-6 col-sm-6">
-          <div className="experience wow fadeInRight" data-wow-delay="0.6s">
+          <div className="Sertifikasi wow fadeInRight" data-wow-delay="0.6s">
             <ul className="timeline">
               <li>
                 <i className="icon-briefcase" />
-                <h2 className="timelin-title">Experience</h2>
+                <h2 className="timelin-title">Sertifikasi</h2>
               </li>
               <li>
                 <div className="content-text">
-                  <h3 className="line-title">Magang</h3>
-                  <span>2017 </span>
-                  <p className="line-text">Aqua Airmadidi Bawah</p>
+                  <h3 className="line-title">Cisco</h3>
+                  <span>2022 </span>
+                  <p className="line-text">NDG Linux unhatched</p>
                 </div>
               </li>
               <li>
                 <div className="content-text">
-                  <h3 className="line-title">Magang</h3>
-                  <span>2018</span>
-                  <p className="line-text">Crossnet Manado.</p>
+                  <h3 className="line-title">Workshop</h3>
+                  <span>2023</span>
+                  <p className="line-text">Cataliz.</p>
                 </div>
               </li>
             </ul>
@@ -415,10 +418,10 @@ const FinalProject = () =>{
                 <a className="instagram" href="#"><i className="icon-social-instagram" /></a>
               </li>
               <li>
-                <a className="instagram" href="#"><i className="icon-social-linkedin" /></a>
+                <a className="linkedin" href="#"><i className="icon-social-linkedin" /></a>
               </li>
               <li>
-                <a className="instagram" href="#"><i className="icon-social-google" /></a>
+                <a className="google" href="#"><i className="icon-social-google" /></a>
               </li>
             </ul>
             <p>Copyright © 2018 UIdeck All Right Reserved</p>
@@ -437,4 +440,4 @@ const FinalProject = () =>{
     );
 }
 
-export default FinalProject;
+export default projectIndividu;
